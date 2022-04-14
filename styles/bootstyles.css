@@ -1,0 +1,46 @@
+.common {
+    background-color: navajowhite;
+    border: solid 2px black;
+    position: relative; 
+}
+
+.body {
+    background-color: #5555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: azure;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    left: 5px;
+}
+
+
+.footer {
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+}
+
+.caption {
+    color: darkslategray;
+    text-decoration: wavy;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    font-family:fantasy;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
