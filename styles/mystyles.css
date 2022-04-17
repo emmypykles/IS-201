@@ -1,7 +1,9 @@
+
 .oohlala {
-    font-family: fantasy;
+    font-family:fantasy;
     color: pink;
     text-align: center;
+    font-weight: lighter
 }
 
 .sub{
@@ -14,4 +16,24 @@
     font-weight:bolder;
     font-family:fantasy;
     text-align: center;
+}
+
+.abouttitl {
+    color: lightsalmon
+}
+
+.hablame {
+    text-align: center;
+    color: lightsalmon;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.heady {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightsalmon
+}
+
+.colorpop {
+    color: pink;
 }

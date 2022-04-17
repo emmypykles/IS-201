@@ -1,4 +1,4 @@
-<!--Emmy Pykles, last edited Apr 13-->
+<!--Emmy Pykles, last edited Apr 16-->
 
 <!DOCTYPE html>
 
@@ -8,21 +8,28 @@
         <link href="../styles/bootstyles.css" rel="stylesheet" />
     </head>
 
-    <body>
-        <div class="common header">
-            <a href="../index.html">Home</a>
-            <a href="#">Tableau</a>
-            <a href = "about.html">About</a>
-            <h1 class="title"> Tableau</h1> 
+    <body class="body" style="background-image: url(../images/watermark.jpg)" alt="watermark background">
+        <div class="header">
+            <a class= "nav" href="../index.html">Home</a>
+            <br>
+            <a class= "nav" href = "about.html">About</a>
+            <br>
+            <a class= "nav" href="#">Tableau</a>
+            <h1 class="title"> Global Superstore Dashboard </h1> 
         </div>
-    
-             <a href="https://www.tableau.com"> 
-                <li> Click here to go to tableau.com </li></a>
 
-            <h1 class="caption"> Profit by State </h1>
+        <div class="mainbody">
+                <br>
+                <br>
+                <hr class="my-4" />
+                All visuals sourced from 
+                <a href="https://www.tableau.com"> tableau.com </a>
+                <hr class="my-4" />
+                <br>
+            
             <div class='tableauPlaceholder' id='viz1649901309731' style='position: relative'><noscript><a href='#'><img
                             alt='Profit by State '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GN&#47;GNWMSRCNW&#47;1_rss.png'
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GN&#47;GNWMSRCNW&#47;1_rss.png' alt="chart 1"
                             style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                     <param name='embed_code_version' value='3' />
@@ -40,11 +47,11 @@
                 </object></div>
             <script
                 type='text/javascript'>                    var divElement = document.getElementById('viz1649901309731'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <h1 class="newcaption"> The larger the bubble, the larger the company's profit in that state. </h1>
 
-            <h1 class="caption"> California's Profit 2013-2014</h1>
             <div class='tableauPlaceholder' id='viz1649901455630' style='position: relative'><noscript><a href='#'><img
                             alt='California&#39;s Profit 2013-2014 '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniasProfit2013-2014_16499014296610&#47;CaliforniasProfit2013-2014&#47;1_rss.png'
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;CaliforniasProfit2013-2014_16499014296610&#47;CaliforniasProfit2013-2014&#47;1_rss.png' alt="chart 2"
                             style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                     <param name='embed_code_version' value='3' />
@@ -64,11 +71,12 @@
                 </object></div>
             <script
                 type='text/javascript'>                    var divElement = document.getElementById('viz1649901455630'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-            
-            <h1 class="caption"> California's Profit by Product Category </h1>
+        <h1 class="newcaption"> After a drop in 2013, California's profits have recently shown a steep uptake.</h1>
+
+
             <div class='tableauPlaceholder' id='viz1649901564415' style='position: relative'><noscript><a href='#'><img
                             alt='CA by Product Category '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CA&#47;CAbyCategory_16499015579800&#47;CAbyProductCategory&#47;1_rss.png'
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CA&#47;CAbyCategory_16499015579800&#47;CAbyProductCategory&#47;1_rss.png' alt="chart 3"
                             style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                     <param name='embed_code_version' value='3' />
@@ -88,11 +96,11 @@
                 </object></div>
             <script
                 type='text/javascript'>                    var divElement = document.getElementById('viz1649901564415'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <h1 class="newcaption"> Flourishing in all categories, California's profit is especially succeeding in office supplies.</h1>
 
-             <h1 class="caption"> New York Sales Forecast </h1>  
             <div class='tableauPlaceholder' id='viz1649901630794' style='position: relative'><noscript><a href='#'><img
                             alt='New York Forecast '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYForecast_16499016233110&#47;NewYorkForecast&#47;1_rss.png'
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NY&#47;NYForecast_16499016233110&#47;NewYorkForecast&#47;1_rss.png' alt="chart 4"
                             style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                     <param name='embed_code_version' value='3' />
@@ -112,24 +120,16 @@
                 </object></div>
             <script
                 type='text/javascript'>                    var divElement = document.getElementById('viz1649901630794'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <h1 class="newcaption">Looking ahead at this most profitable category, but in New York state, we can predict a steady continuation of sales in office supplies. </h1>  
 
                 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
                 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
                 <a href= "#top"> Back to Top </a>
         </div>
-
-        <div class="common footer">
+    </body>
+        <div class="footer">
             www.emmypykles.com | &copy; 2022 | by Emmy Pykles
         </div>
-
-           
-           
-            
-<!--This is a ridiculously long shortcut for a comment-->
-            
-            
-    </body>
-
 
 
 </html>
